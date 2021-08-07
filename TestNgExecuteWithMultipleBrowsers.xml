@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite Multiple Browsers">
+    <listeners>
+        <listener class-name="varios.Listeners"></listener>
+    </listeners>
+
+    <test name="Test 1">
+        <parameter name="browserName" value="firefox"></parameter>
+        <classes>
+            <class name="varios.TestNg_Test"/>
+        </classes>
+    </test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="38638" started-at="2021-07-12T18:30:54 ART" finished-at="2021-07-12T18:31:33 ART">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="38638" started-at="2021-07-12T18:30:54 ART" finished-at="2021-07-12T18:31:33 ART">
+      <class name="varios.BrowserTest">
+        <test-method status="PASS" signature="abrirWeb()[pri:0, instance:varios.BrowserTest@22a67b4]" name="abrirWeb" duration-ms="6430" started-at="2021-07-12T18:31:02 ART" finished-at="2021-07-12T18:31:08 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abrirWeb -->
+      </class> <!-- varios.BrowserTest -->
+      <class name="varios.TestNg_Test">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:varios.TestNg_Test@4d95d2a2]" name="setUp" is-config="true" duration-ms="7407" started-at="2021-07-12T18:30:54 ART" finished-at="2021-07-12T18:31:02 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="abrirWeb()[pri:0, instance:varios.TestNg_Test@4d95d2a2]" name="abrirWeb" duration-ms="22121" started-at="2021-07-12T18:31:08 ART" finished-at="2021-07-12T18:31:30 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abrirWeb -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:varios.TestNg_Test@4d95d2a2]" name="tearDownTest" is-config="true" duration-ms="2498" started-at="2021-07-12T18:31:30 ART" finished-at="2021-07-12T18:31:33 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- varios.TestNg_Test -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
